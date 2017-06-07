@@ -8,7 +8,10 @@ class Solution(object):
         # your solution here
         pairSum = 0
         nums.sort()
-        for i in range (0, len(nums)//2+1):
+        i = 0
+        while i < len(nums):
         	pairSum += nums[i]
+        	i += 2
         return pairSum
-
+# sol = Solution()
+# print(sol.ArrayPairSum([1,2,3,4,5,6]))
