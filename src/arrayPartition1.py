@@ -6,6 +6,9 @@ class Solution(object):
         """
 
         # your solution here
-
-        return 4
+        pairSum = 0
+        nums.sort()
+        for i in range (0, len(nums)//2+1):
+        	pairSum += nums[i]
+        return pairSum
 
