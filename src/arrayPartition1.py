@@ -13,3 +13,5 @@ class Solution(object):
         	pairSum += nums[i]
         	i += 2
         return pairSum
+
+        #test
